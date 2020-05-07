@@ -83,6 +83,7 @@ DATABASES = {
 
 
 # Password validation
+# Testin
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
