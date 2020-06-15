@@ -1,0 +1,19 @@
+version: '3'
+services:
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volume:
+      - .:/app
+    ports:
+      - "8000:8000"
+#  app:
+#    image: docker.example.com/my-won-image
+#    build: .
+#    ports:
+#    - 1234:8000
+#
+#  db:
+#    image: postgres:11-alpine
+#    ports:
+#      - 5432:5432
